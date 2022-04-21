@@ -1,0 +1,22 @@
+{
+    "name": "copex/module-runtimeconfigsetter",
+    "description": "Set config values at runtime",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Andreas Pointner",
+            "email": "andreas.pointner@copex.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CopeX\\RuntimeConfigSetter\\": ""
+        }
+    }
+}
